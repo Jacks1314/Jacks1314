@@ -1,0 +1,36 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina Personalizada</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Sus datos</legend>
+            <p>Nombre:
+                <input type="text" name="Nombre" size="25" maxlength="30">
+            </p>
+            <p>Email
+                <input type="text" name="Email" size="25" maxlength="30">
+            </p>
+            <label for="Fecha de nacimiento"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Su opinión</legend>
+            <p>¿Como se enteraron de nosotros?<select name="devices">
+                <option value="Google">Google</option>
+                <option value="Correo">Correo</option>
+                <option value="Youtube">Youtube</option>
+        </select></p>
+        <p>¿Volveria a visitarnos?<br />
+            <input type="radio" name="select" value="si"> Si
+            <input type="radio" name="select" value="no"> No
+            <input type="radio" name="select" value="quizas"> Quizas
+        </p>
+        <p>Comentarios:</p>
+        <textarea name="comentarios" id="" cols="40" rows="5"></textarea>
+
+        <p><input type="checkbox" name="select"> Incribete para actualizaciones por correo electronico</p>
+        <input type="submit" value="Submit review">
+        </fieldset>
+    </body>
+</html>
